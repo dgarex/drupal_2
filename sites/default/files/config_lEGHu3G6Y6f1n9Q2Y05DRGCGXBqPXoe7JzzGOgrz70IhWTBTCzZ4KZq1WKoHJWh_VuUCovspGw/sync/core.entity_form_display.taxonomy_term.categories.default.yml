@@ -3,7 +3,10 @@ langcode: ru
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.categories.field_s
+    - field.field.taxonomy_term.categories.field_image
+    - field.field.taxonomy_term.categories.field_mi
+    - field.field.taxonomy_term.categories.field_short_description
+    - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
   module:
     - path
@@ -21,7 +24,24 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_s:
+  field_image:
+    weight: 101
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_mi:
+    weight: 103
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_short_description:
     weight: 102
     settings:
       size: 60
@@ -57,4 +77,5 @@ content:
     weight: 100
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

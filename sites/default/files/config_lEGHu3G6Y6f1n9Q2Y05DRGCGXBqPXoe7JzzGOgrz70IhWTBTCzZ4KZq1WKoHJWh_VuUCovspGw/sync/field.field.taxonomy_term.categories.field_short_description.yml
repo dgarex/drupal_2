@@ -1,12 +1,12 @@
-uuid: 744c4edc-d5a3-4f92-b978-f0da555d95de
+uuid: 297b373a-867d-4438-826a-1dd4dda2d90b
 langcode: ru
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_s
+    - field.storage.taxonomy_term.field_short_description
     - taxonomy.vocabulary.categories
-id: taxonomy_term.categories.field_s
-field_name: field_s
+id: taxonomy_term.categories.field_short_description
+field_name: field_short_description
 entity_type: taxonomy_term
 bundle: categories
 label: short_description
