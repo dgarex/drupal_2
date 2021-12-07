@@ -1,11 +1,11 @@
-uuid: 48e0893b-446b-4642-9324-f0ac454bb42d
+uuid: baf0257a-d54b-442d-ac2d-db5f969e0869
 langcode: ru
 status: true
 dependencies:
   module:
     - node
-id: node.field_short_description
-field_name: field_short_description
+id: node.field_description
+field_name: field_description
 entity_type: node
 type: string
 settings:

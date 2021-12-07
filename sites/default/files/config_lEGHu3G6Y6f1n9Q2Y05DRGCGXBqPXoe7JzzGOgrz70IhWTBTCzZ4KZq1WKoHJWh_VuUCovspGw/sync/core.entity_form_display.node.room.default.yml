@@ -5,10 +5,10 @@ dependencies:
   config:
     - field.field.node.room.body
     - field.field.node.room.field_categories
+    - field.field.node.room.field_description
     - field.field.node.room.field_photos
     - field.field.node.room.field_preview
     - field.field.node.room.field_price
-    - field.field.node.room.field_short_description
     - field.field.node.room.field_tag
     - node.type.room
   module:
@@ -45,6 +45,14 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
+  field_description:
+    weight: 131
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_photos:
     weight: 130
     settings:
@@ -71,14 +79,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: number
-    region: content
-  field_short_description:
-    weight: 123
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
   field_tag:
     weight: 129

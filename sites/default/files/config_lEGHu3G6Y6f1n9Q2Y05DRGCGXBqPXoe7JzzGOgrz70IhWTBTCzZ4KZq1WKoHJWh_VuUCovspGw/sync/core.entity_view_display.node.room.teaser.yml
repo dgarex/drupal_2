@@ -6,10 +6,10 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.room.body
     - field.field.node.room.field_categories
+    - field.field.node.room.field_description
     - field.field.node.room.field_photos
     - field.field.node.room.field_preview
     - field.field.node.room.field_price
-    - field.field.node.room.field_short_description
     - field.field.node.room.field_tag
     - node.type.room
   module:
@@ -35,9 +35,9 @@ content:
     region: content
 hidden:
   field_categories: true
+  field_description: true
   field_photos: true
   field_preview: true
   field_price: true
-  field_short_description: true
   field_tag: true
   langcode: true
