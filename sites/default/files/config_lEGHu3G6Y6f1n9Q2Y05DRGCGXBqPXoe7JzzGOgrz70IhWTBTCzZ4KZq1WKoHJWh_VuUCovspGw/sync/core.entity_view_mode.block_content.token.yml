@@ -1,0 +1,10 @@
+uuid: dbde917b-e0cd-4de8-ae9e-e8833e15cb6c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.token
+label: Токен
+targetEntityType: block_content
+cache: true

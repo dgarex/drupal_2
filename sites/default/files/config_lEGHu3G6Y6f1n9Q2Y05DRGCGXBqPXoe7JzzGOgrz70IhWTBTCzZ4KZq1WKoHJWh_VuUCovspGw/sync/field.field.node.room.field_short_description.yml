@@ -1,0 +1,19 @@
+uuid: 3cefcdb4-ecde-4c0c-bdc3-d5ac2a1ca7d8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_description
+    - node.type.room
+id: node.room.field_short_description
+field_name: field_short_description
+entity_type: node
+bundle: room
+label: short_description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

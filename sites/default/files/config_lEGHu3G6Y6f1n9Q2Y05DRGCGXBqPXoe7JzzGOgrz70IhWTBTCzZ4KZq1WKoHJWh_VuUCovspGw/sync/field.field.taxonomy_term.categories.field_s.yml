@@ -1,0 +1,19 @@
+uuid: 744c4edc-d5a3-4f92-b978-f0da555d95de
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_s
+    - taxonomy.vocabulary.categories
+id: taxonomy_term.categories.field_s
+field_name: field_s
+entity_type: taxonomy_term
+bundle: categories
+label: short_description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

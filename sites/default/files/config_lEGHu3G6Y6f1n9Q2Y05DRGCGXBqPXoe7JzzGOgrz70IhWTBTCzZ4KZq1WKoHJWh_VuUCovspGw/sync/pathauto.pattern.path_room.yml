@@ -1,0 +1,22 @@
+uuid: 60151f0d-ec92-4244-85fb-eed5d46bffb8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: path_room
+label: path_room
+type: 'canonical_entities:node'
+pattern: '/room/[node:title]'
+selection_criteria:
+  abb0411d-c92d-412b-bb64-a446ec16c9dd:
+    id: node_type
+    bundles:
+      room: room
+    negate: false
+    context_mapping:
+      node: node
+    uuid: abb0411d-c92d-412b-bb64-a446ec16c9dd
+selection_logic: and
+weight: -5
+relationships: {  }
