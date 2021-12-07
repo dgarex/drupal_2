@@ -109,7 +109,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: Все
+            title: All
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed

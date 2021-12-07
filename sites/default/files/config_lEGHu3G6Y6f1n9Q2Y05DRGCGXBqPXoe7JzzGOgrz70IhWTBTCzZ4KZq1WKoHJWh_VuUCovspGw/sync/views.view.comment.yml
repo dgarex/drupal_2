@@ -54,8 +54,8 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ предыдущая'
-            next: 'следующая ›'
+            previous: '‹ previous'
+            next: 'next ›'
             first: '« первая'
             last: 'последняя »'
           expose:
