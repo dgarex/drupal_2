@@ -1,6 +1,6 @@
 custom:
   style: default
-  activate: 0
+  activate: 1
   transition_type: elastic
   transition_speed: 350
   opacity: 0.85
@@ -28,7 +28,7 @@ advanced:
   mobile_device_width: 480px
   caption_trim: 0
   caption_trim_length: 75
-  compression_type: minified
+  compression_type: source
 _core:
   default_config_hash: GXgpFNb8H7n-27gImTB9s1A2lE-lmH43d6qf2KMYp_A
 langcode: ru
