@@ -1,0 +1,29 @@
+uuid: 35ccc2e2-e0d0-4bfd-a673-1a11a08413d6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.block_room
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__block_room_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:block_room-block_1'
+settings:
+  id: 'views_block:block_room-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
