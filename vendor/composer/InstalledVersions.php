@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '38818fbdcaa4e368368ca562f5f3074a6bfb8cfb',
+    'reference' => '6f7c8479de79498375182e4f807decf5756490fc',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -252,6 +252,15 @@ private static $installed = array (
         0 => '9.2.10',
       ),
     ),
+    'drupal/backup_migrate' => 
+    array (
+      'pretty_version' => '5.0.1',
+      'version' => '5.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5.0.1',
+    ),
     'drupal/ban' => 
     array (
       'replaced' => 
@@ -307,6 +316,16 @@ private static $installed = array (
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/captcha' => 
+    array (
+      'pretty_version' => 'dev-1.x',
+      'version' => 'dev-1.x',
+      'aliases' => 
+      array (
+        0 => '1.x-dev',
+      ),
+      'reference' => '0b07d655602a07a1584a3e505c91d668df013cd8',
     ),
     'drupal/ckeditor' => 
     array (
@@ -793,7 +812,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '38818fbdcaa4e368368ca562f5f3074a6bfb8cfb',
+      'reference' => '6f7c8479de79498375182e4f807decf5756490fc',
     ),
     'drupal/link' => 
     array (
@@ -871,6 +890,15 @@ private static $installed = array (
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/modal_page' => 
+    array (
+      'pretty_version' => '4.1.8',
+      'version' => '4.1.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4.1.8',
     ),
     'drupal/node' => 
     array (
@@ -1108,6 +1136,15 @@ private static $installed = array (
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/webform' => 
+    array (
+      'pretty_version' => '6.1.2',
+      'version' => '6.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6.1.2',
     ),
     'drupal/workflows' => 
     array (

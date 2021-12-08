@@ -1,0 +1,29 @@
+uuid: 12b96b51-dcf6-480b-81c8-c81297ed8d99
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.contact_us
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__contact_us_block_1
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:contact_us-block_1'
+settings:
+  id: 'views_block:contact_us-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/*'
+    negate: false

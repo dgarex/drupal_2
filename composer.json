@@ -16,14 +16,18 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/captcha": "1.x-dev@dev",
         "drupal/colorbox": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/core-vendor-hardening": "^9.2",
         "drupal/devel": "^4.1",
+        "drupal/modal_page": "^4.1",
         "drupal/pathauto": "^1.8",
         "drupal/views_slideshow": "^4.8",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10.6"
     },
     "conflict": {
