@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
+    - image.style.large
     - media.type.image
   module:
     - colorbox
@@ -21,9 +22,9 @@ content:
     label: above
     settings:
       colorbox_node_style: ''
-      colorbox_node_style_first: ''
+      colorbox_node_style_first: large
       colorbox_image_style: ''
-      colorbox_gallery: post
+      colorbox_gallery: page
       colorbox_gallery_custom: ''
       colorbox_caption: auto
       colorbox_caption_custom: ''

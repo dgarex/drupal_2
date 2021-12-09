@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '6f7c8479de79498375182e4f807decf5756490fc',
+    'reference' => '502c8e19f2df4e9e230c3df765f0d08b71adde30',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -261,6 +261,16 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/base_field_override_ui' => 
+    array (
+      'pretty_version' => 'dev-1.x',
+      'version' => 'dev-1.x',
+      'aliases' => 
+      array (
+        0 => '1.x-dev',
+      ),
+      'reference' => '8fc2b6d442f50d5027251e204bd83b0539c4d6bf',
     ),
     'drupal/basic_auth' => 
     array (
@@ -659,6 +669,16 @@
       ),
       'reference' => '4.1.1',
     ),
+    'drupal/disable_field' => 
+    array (
+      'pretty_version' => 'dev-2.x',
+      'version' => 'dev-2.x',
+      'aliases' => 
+      array (
+        0 => '2.x-dev',
+      ),
+      'reference' => 'c244236f7488de78ce913fbe3ffbdc9891396841',
+    ),
     'drupal/dynamic_page_cache' => 
     array (
       'replaced' => 
@@ -679,6 +699,16 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/exclude_node_title' => 
+    array (
+      'pretty_version' => 'dev-1.x',
+      'version' => 'dev-1.x',
+      'aliases' => 
+      array (
+        0 => '1.x-dev',
+      ),
+      'reference' => '4ad1735ceab70c293305298cdada091698fa6362',
     ),
     'drupal/field' => 
     array (
@@ -799,7 +829,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '6f7c8479de79498375182e4f807decf5756490fc',
+      'reference' => '502c8e19f2df4e9e230c3df765f0d08b71adde30',
     ),
     'drupal/link' => 
     array (

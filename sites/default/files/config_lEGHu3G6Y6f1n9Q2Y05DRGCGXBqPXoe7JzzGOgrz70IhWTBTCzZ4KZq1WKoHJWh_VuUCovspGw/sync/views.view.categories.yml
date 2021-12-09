@@ -3,6 +3,7 @@ langcode: ru
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.taxonomy_term.term_all
     - field.storage.taxonomy_term.field_image
     - field.storage.taxonomy_term.field_mi
     - image.style.38
@@ -80,7 +81,10 @@ display:
           row_class_default: true
           row_class_custom: ''
       row:
-        type: fields
+        type: 'entity:taxonomy_term'
+        options:
+          relationship: none
+          view_mode: term_all
       fields:
         field_image:
           id: field_image
@@ -294,6 +298,8 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      show_admin_links: true
+      hide_attachment_summary: true
     cache_metadata:
       max-age: -1
       contexts:
@@ -312,6 +318,7 @@ display:
     display_options:
       display_extenders: {  }
       path: categories
+      exposed_block: true
     cache_metadata:
       max-age: -1
       contexts:

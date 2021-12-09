@@ -106,17 +106,19 @@ third_party_settings:
             uuid: b1ba10ec-7581-4cac-b204-d4e190823276
             region: content
             configuration:
+              id: 'field_block:node:room:field_preview'
+              label: Preview
+              provider: layout_builder
               label_display: '0'
+              formatter:
+                label: above
+                type: entity_reference_entity_view
+                settings:
+                  view_mode: image
+                third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
-              id: 'field_block:node:room:field_preview'
-              formatter:
-                type: entity_reference_entity_view
-                label: above
-                settings:
-                  link: true
-                  view_mode: default
-                third_party_settings: {  }
+                view_mode: view_mode
             additional: {  }
             weight: 5
           706af854-4828-4be0-90f7-fab47b4263d3:
@@ -131,7 +133,7 @@ third_party_settings:
                 label: above
                 type: entity_reference_entity_view
                 settings:
-                  view_mode: default
+                  view_mode: image
                 third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity

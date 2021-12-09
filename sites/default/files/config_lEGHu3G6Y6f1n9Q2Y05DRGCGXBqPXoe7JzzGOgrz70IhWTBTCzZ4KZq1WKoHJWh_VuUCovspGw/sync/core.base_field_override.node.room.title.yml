@@ -1,0 +1,18 @@
+uuid: d1ea88d9-f047-40d6-94d7-01c134b5b11c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.room
+id: node.room.title
+field_name: title
+entity_type: node
+bundle: room
+label: Заголовок
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
