@@ -1,0 +1,38 @@
+uuid: b165a920-ec14-43bd-9cfc-8fa799a3f3a6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.280x360
+    - field.field.media.image.field_media_image
+    - image.style.280_360
+    - media.type.image
+  module:
+    - image
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+_core:
+  default_config_hash: B1a2aBHmUulUZN6HrxITEH1tSResuVjXMBEv1lUBtOo
+id: media.image.280x360
+targetEntityType: media
+bundle: image
+mode: 280x360
+content:
+  field_media_image:
+    type: image
+    weight: 0
+    region: content
+    label: above
+    settings:
+      image_style: '280_360'
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

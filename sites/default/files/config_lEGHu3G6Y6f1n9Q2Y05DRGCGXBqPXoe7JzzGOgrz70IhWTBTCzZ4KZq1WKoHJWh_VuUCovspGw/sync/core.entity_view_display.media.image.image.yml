@@ -1,6 +1,6 @@
 uuid: 00bbe064-1419-4088-bf87-2ba824287f69
 langcode: ru
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.media.image

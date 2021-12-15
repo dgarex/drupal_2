@@ -1,0 +1,10 @@
+uuid: c0a464a3-06b6-49bc-9c32-2361fc519d2a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+id: media.380x364
+label: 380x364
+targetEntityType: media
+cache: true

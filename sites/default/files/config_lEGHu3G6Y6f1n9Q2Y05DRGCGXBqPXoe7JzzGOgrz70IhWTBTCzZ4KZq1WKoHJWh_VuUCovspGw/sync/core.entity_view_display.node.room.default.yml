@@ -13,7 +13,6 @@ dependencies:
     - node.type.room
   module:
     - layout_builder
-    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -26,8 +25,8 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          0b8a6455-861c-494f-b23b-2ce491f60d76:
-            uuid: 0b8a6455-861c-494f-b23b-2ce491f60d76
+          793aaac7-4d69-497c-a69e-3cd2fde98ae7:
+            uuid: 793aaac7-4d69-497c-a69e-3cd2fde98ae7
             region: content
             configuration:
               label_display: '0'
@@ -36,8 +35,8 @@ third_party_settings:
               id: 'extra_field_block:node:room:links'
             additional: {  }
             weight: 0
-          c0182fe1-41e3-4b47-971b-1f1ff6e67a88:
-            uuid: c0182fe1-41e3-4b47-971b-1f1ff6e67a88
+          fcee51ff-f3a6-43c5-9b64-d2a22bf1ae10:
+            uuid: fcee51ff-f3a6-43c5-9b64-d2a22bf1ae10
             region: content
             configuration:
               label_display: '0'
@@ -51,8 +50,8 @@ third_party_settings:
                 third_party_settings: {  }
             additional: {  }
             weight: 1
-          8933518a-b884-408e-bcb2-4f1b05f02fd4:
-            uuid: 8933518a-b884-408e-bcb2-4f1b05f02fd4
+          58c93049-2ed6-4d86-a78b-56cc7324d4a6:
+            uuid: 58c93049-2ed6-4d86-a78b-56cc7324d4a6
             region: content
             configuration:
               label_display: '0'
@@ -70,8 +69,8 @@ third_party_settings:
                 type: number_decimal
             additional: {  }
             weight: 2
-          5dc2d2bb-1c3e-472d-9474-8d1db1eaf62a:
-            uuid: 5dc2d2bb-1c3e-472d-9474-8d1db1eaf62a
+          764f6577-1e4f-4b8f-beb4-74a148aee77d:
+            uuid: 764f6577-1e4f-4b8f-beb4-74a148aee77d
             region: content
             configuration:
               label_display: '0'
@@ -86,8 +85,8 @@ third_party_settings:
                 type: entity_reference_label
             additional: {  }
             weight: 3
-          a67c8b1f-2cc0-44c2-852c-d2e68758276f:
-            uuid: a67c8b1f-2cc0-44c2-852c-d2e68758276f
+          7da89745-42e7-4f75-94f6-3f9a8b54f75c:
+            uuid: 7da89745-42e7-4f75-94f6-3f9a8b54f75c
             region: content
             configuration:
               label_display: '0'
@@ -102,46 +101,42 @@ third_party_settings:
                 type: entity_reference_label
             additional: {  }
             weight: 4
-          b1ba10ec-7581-4cac-b204-d4e190823276:
-            uuid: b1ba10ec-7581-4cac-b204-d4e190823276
+          8f5e4027-1d47-45e7-a288-db525e09a3b3:
+            uuid: 8f5e4027-1d47-45e7-a288-db525e09a3b3
             region: content
             configuration:
-              id: 'field_block:node:room:field_preview'
-              label: Preview
-              provider: layout_builder
               label_display: '0'
-              formatter:
-                label: above
-                type: entity_reference_entity_view
-                settings:
-                  view_mode: image
-                third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
-                view_mode: view_mode
+              id: 'field_block:node:room:field_preview'
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  link: true
+                  view_mode: default
+                third_party_settings: {  }
             additional: {  }
             weight: 5
-          706af854-4828-4be0-90f7-fab47b4263d3:
-            uuid: 706af854-4828-4be0-90f7-fab47b4263d3
+          418fe362-03ef-445b-8ff9-b9933315af74:
+            uuid: 418fe362-03ef-445b-8ff9-b9933315af74
             region: content
             configuration:
-              id: 'field_block:node:room:field_photos'
-              label: Photos
-              provider: layout_builder
               label_display: '0'
-              formatter:
-                label: above
-                type: entity_reference_entity_view
-                settings:
-                  view_mode: image
-                third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
-                view_mode: view_mode
+              id: 'field_block:node:room:field_photos'
+              formatter:
+                type: entity_reference_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
             additional: {  }
             weight: 6
-          4e7ed437-5d3a-4bd3-a05e-298ab3b8f0a3:
-            uuid: 4e7ed437-5d3a-4bd3-a05e-298ab3b8f0a3
+          f00f49e2-05a0-43a9-8219-4d0fc3e23993:
+            uuid: f00f49e2-05a0-43a9-8219-4d0fc3e23993
             region: content
             configuration:
               label_display: '0'

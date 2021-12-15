@@ -12,7 +12,30 @@ dependencies:
 third_party_settings:
   layout_builder:
     allow_custom: false
-    enabled: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          c0e6ebf8-b597-46d5-9e33-87b536ff93fa:
+            uuid: c0e6ebf8-b597-46d5-9e33-87b536ff93fa
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:taxonomy_term:categories:field_short_description'
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
 id: taxonomy_term.categories.default
 targetEntityType: taxonomy_term
 bundle: categories

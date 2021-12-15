@@ -7,11 +7,9 @@ dependencies:
     - field.storage.node.field_description
     - field.storage.node.field_preview
     - field.storage.node.field_price
-    - image.style.280_360
     - node.type.room
     - taxonomy.vocabulary.categories
   module:
-    - media
     - node
     - taxonomy
     - user
@@ -126,10 +124,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: media_thumbnail
+          type: entity_reference_entity_view
           settings:
-            image_style: '280_360'
-            image_link: content
+            view_mode: 280x360
           group_column: target_id
           group_columns: {  }
           group_rows: true

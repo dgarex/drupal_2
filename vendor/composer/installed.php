@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '502c8e19f2df4e9e230c3df765f0d08b71adde30',
+    'reference' => 'ebfab5b92d96f4a2c0fe16ac6460b34408154113',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -225,6 +225,15 @@
         0 => '9.2.10',
       ),
     ),
+    'drupal/admin_toolbar' => 
+    array (
+      'pretty_version' => '3.0.3',
+      'version' => '3.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3.0.3',
+    ),
     'drupal/aggregator' => 
     array (
       'replaced' => 
@@ -316,13 +325,12 @@
     ),
     'drupal/captcha' => 
     array (
-      'pretty_version' => 'dev-1.x',
-      'version' => 'dev-1.x',
+      'pretty_version' => '1.2.0',
+      'version' => '1.2.0.0',
       'aliases' => 
       array (
-        0 => '1.x-dev',
       ),
-      'reference' => '0b07d655602a07a1584a3e505c91d668df013cd8',
+      'reference' => '8.x-1.2',
     ),
     'drupal/ckeditor' => 
     array (
@@ -829,7 +837,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '502c8e19f2df4e9e230c3df765f0d08b71adde30',
+      'reference' => 'ebfab5b92d96f4a2c0fe16ac6460b34408154113',
     ),
     'drupal/link' => 
     array (
@@ -1116,6 +1124,16 @@
       array (
         0 => '9.2.10',
       ),
+    ),
+    'drupal/tvi' => 
+    array (
+      'pretty_version' => 'dev-1.x',
+      'version' => 'dev-1.x',
+      'aliases' => 
+      array (
+        0 => '1.x-dev',
+      ),
+      'reference' => 'cdc4885bbeed7677c6868d97b715eb9fe1d4c473',
     ),
     'drupal/update' => 
     array (

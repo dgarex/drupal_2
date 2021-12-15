@@ -1,0 +1,10 @@
+uuid: 5dd2ef12-7f53-41e6-bcfd-266a0eb79bb7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+id: media.280x360
+label: 280x360
+targetEntityType: media
+cache: true
