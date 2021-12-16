@@ -17,7 +17,6 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
-        "drupal/backup_migrate": "^5.0",
         "drupal/captcha": "^1.2",
         "drupal/colorbox": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
