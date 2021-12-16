@@ -10,6 +10,7 @@ dependencies:
   module:
     - image
     - layout_builder
+    - media_parent_entity_link
 third_party_settings:
   layout_builder:
     allow_custom: false
@@ -25,11 +26,13 @@ content:
     type: image
     weight: 0
     region: content
-    label: above
+    label: hidden
     settings:
       image_style: '38'
       image_link: content
-    third_party_settings: {  }
+    third_party_settings:
+      media_parent_entity_link:
+        link_to_parent: '1'
 hidden:
   created: true
   langcode: true

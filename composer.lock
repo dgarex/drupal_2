@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2110e1237a13e6b8df771afdacec0237",
+    "content-hash": "82f69cf16d9e32af72785fb885e1af56",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1919,51 +1919,6 @@
             }
         },
         {
-            "name": "drupal/base_field_override_ui",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/base_field_override_ui.git",
-                "reference": "8fc2b6d442f50d5027251e204bd83b0539c4d6bf"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc1+1-dev",
-                    "datestamp": "1629380774",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "mnico",
-                    "homepage": "https://www.drupal.org/user/1119544"
-                }
-            ],
-            "description": "Enables the possibility to easily override the base fields of any content entity type with an user interface",
-            "homepage": "https://www.drupal.org/project/base_field_override_ui",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/base_field_override_ui",
-                "issues": "https://www.drupal.org/project/issues/base_field_override_ui"
-            }
-        },
-        {
             "name": "drupal/captcha",
             "version": "1.2.0",
             "source": {
@@ -2722,74 +2677,12 @@
             }
         },
         {
-            "name": "drupal/disable_field",
-            "version": "dev-2.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/disable_field.git",
-                "reference": "c244236f7488de78ce913fbe3ffbdc9891396841"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "require-dev": {
-                "drupal/base_field_override_ui": "^1.0@beta",
-                "drupal/paragraphs": "^1.10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.4+3-dev",
-                    "datestamp": "1593087135",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "A AjayKumar Reddy (ajaykumarreddy1392)",
-                    "homepage": "https://www.drupal.org/u/ajay_reddy",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Viraj Rajankar (virajrajankar)",
-                    "homepage": "https://www.drupal.org/u/virajrajankar",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Eugene Ilyin (eugene.ilyin)",
-                    "homepage": "https://www.drupal.org/u/eugeneilyin",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Jeroen Tubex (JeroenT)",
-                    "homepage": "https://www.drupal.org/u/jeroent",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Allows to disable field of entities on the forms.",
-            "homepage": "https://drupal.org/project/disable_field",
-            "support": {
-                "source": "https://git.drupalcode.org/project/disable_field",
-                "issues": "https://www.drupal.org/project/issues/disable_field"
-            }
-        },
-        {
-            "name": "drupal/exclude_node_title",
+            "name": "drupal/media_parent_entity_link",
             "version": "dev-1.x",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/exclude_node_title.git",
-                "reference": "4ad1735ceab70c293305298cdada091698fa6362"
+                "url": "https://git.drupalcode.org/project/media_parent_entity_link.git",
+                "reference": "d7551f814072e59f88f48b56c6fef80eb6e34f8c"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -2800,11 +2693,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2+1-dev",
-                    "datestamp": "1630751939",
+                    "version": "8.x-1.0-beta4+2-dev",
+                    "datestamp": "1613229447",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "message": "Project has not opted into security advisory coverage!"
                     }
                 }
             },
@@ -2814,24 +2707,14 @@
             ],
             "authors": [
                 {
-                    "name": "Neslee Canil Pinto",
-                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "fizk",
-                    "homepage": "https://www.drupal.org/user/473174"
-                },
-                {
-                    "name": "gabrielu",
-                    "homepage": "https://www.drupal.org/user/279352"
+                    "name": "stefan.korn",
+                    "homepage": "https://www.drupal.org/user/1942204"
                 }
             ],
-            "description": "Provides the option of excluding node title(s) from display by individual node, node bundle, and view mode.",
-            "homepage": "https://www.drupal.org/project/exclude_node_title",
+            "description": "Link media items to their parent (referencing) entities",
+            "homepage": "https://www.drupal.org/project/media_parent_entity_link",
             "support": {
-                "source": "https://git.drupalcode.org/project/exclude_node_title",
-                "issues": "https://www.drupal.org/project/issues/exclude_node_title"
+                "source": "https://git.drupalcode.org/project/media_parent_entity_link"
             }
         },
         {
@@ -3036,68 +2919,6 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
-            }
-        },
-        {
-            "name": "drupal/tvi",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/tvi.git",
-                "reference": "cdc4885bbeed7677c6868d97b715eb9fe1d4c473"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc3+1-dev",
-                    "datestamp": "1623332094",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Kevin Quillen (kevinquillen)",
-                    "homepage": "https://www.drupal.org/u/kevinquillen",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "derekwebb1",
-                    "homepage": "https://www.drupal.org/user/64114"
-                },
-                {
-                    "name": "kevinquillen",
-                    "homepage": "https://www.drupal.org/user/317279"
-                },
-                {
-                    "name": "mikeohara",
-                    "homepage": "https://www.drupal.org/user/1118796"
-                },
-                {
-                    "name": "richgerdes",
-                    "homepage": "https://www.drupal.org/user/3437973"
-                }
-            ],
-            "description": "Enables you to change the presentation of taxonomy term pages with Views, allowing you to create multiple Views on the same path with different output.",
-            "homepage": "http://drupal.org/project/tvi",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/tvi",
-                "issues": "http://drupal.org/project/issues/tvi"
             }
         },
         {
@@ -7737,10 +7558,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "drupal/base_field_override_ui": 20,
-        "drupal/disable_field": 20,
-        "drupal/exclude_node_title": 20,
-        "drupal/tvi": 20
+        "drupal/media_parent_entity_link": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

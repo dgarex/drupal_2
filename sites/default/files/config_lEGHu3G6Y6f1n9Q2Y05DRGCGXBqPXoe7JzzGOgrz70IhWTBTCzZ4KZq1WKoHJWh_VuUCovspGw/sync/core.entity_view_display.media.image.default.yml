@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - image.style.large
     - media.type.image
   module:
     - colorbox
@@ -15,14 +14,14 @@ targetEntityType: media
 bundle: image
 mode: default
 content:
-  thumbnail:
+  field_media_image:
     type: colorbox
     weight: 0
     region: content
-    label: above
+    label: hidden
     settings:
       colorbox_node_style: ''
-      colorbox_node_style_first: large
+      colorbox_node_style_first: ''
       colorbox_image_style: ''
       colorbox_gallery: page
       colorbox_gallery_custom: ''
@@ -31,7 +30,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_media_image: true
   langcode: true
   name: true
+  thumbnail: true
   uid: true

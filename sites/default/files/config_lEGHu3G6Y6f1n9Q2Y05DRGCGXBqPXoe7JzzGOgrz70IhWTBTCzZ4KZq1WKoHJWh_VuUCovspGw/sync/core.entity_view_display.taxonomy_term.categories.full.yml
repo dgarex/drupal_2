@@ -7,7 +7,6 @@ dependencies:
     - field.field.taxonomy_term.categories.field_image
     - field.field.taxonomy_term.categories.field_mi
     - field.field.taxonomy_term.categories.field_short_description
-    - field.field.taxonomy_term.categories.layout_builder__layout
     - taxonomy.vocabulary.categories
   module:
     - layout_builder
